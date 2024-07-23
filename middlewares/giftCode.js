@@ -88,7 +88,7 @@ export async function giftCode(msg) {
                 parse_mode: "HTML"
             });
         } else {
-            const chartText = "Hello " + msg.chat.first_name +"!!\n\nSikkim Official Link: https://sikkim8.com/#/register?invitationCode=67765144695\n\n🔴 Other IDs Registered Under Another Links Will Not Get Gift Code / SureShots So Must Register Under Official Link\n\n👉 Must Add Bank Account To Get Gift Code If You Not Add Bank You Will Not Get Gift Codes 🤫🚀\n\nRegister From This Official Link & Send me Sikkim UID.😍👇";
+            const chartText = "Hello " + msg.chat.first_name +"!!\n\nIn999 Official Link: https://in88.in/#/register?invitationCode=87221161402\n\n🔴 Other IDs Registered Under Another Links Will Not Get Gift Code / SureShots So Must Register Under Official Link\n\n👉 Must Add Bank Account To Get Gift Code If You Not Add Bank You Will Not Get Gift Codes 🤫🚀\n\nRegister From This Official Link & Send Me In999 UID.😍👇";
             const chartKeyBoardOpts = {
                 reply_markup: {
                     keyboard: [
