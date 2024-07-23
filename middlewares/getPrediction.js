@@ -64,7 +64,7 @@ export async function getNewPrediction(msg){
         const fetchPred = await getPrediction();
         if(fetchPred.result == 'Big'){
             const predMes = "<b>WinGO 1 MIN\n\n🚀 Period - "+fetchPred.period+"\n\n🚀 Purchasing: "+fetchPred.result+"💸\n\nI Always Use 2X Plan, For 100 % Gurantee Of My Profits\n\nAlways Play Through Fund Management only 5 - Level</b>";
-            const photo = 'https://i.ibb.co/drxGtKK/big.jpg';
+            const photo = 'https://i.ibb.co/Vq0L6DD/big.jpg';
             bot.sendPhoto(chatId, photo, {
                 caption: predMes,
                 parse_mode: "HTML"});
@@ -73,7 +73,7 @@ export async function getNewPrediction(msg){
         }
         if (fetchPred.result == 'Small') {
             const predMes = "<b>WinGO 1 MIN\n\n🚀 Period - " + fetchPred.period + "\n\n🚀 Purchasing: " + fetchPred.result + "💸\n\nI Always Use 2X Plan, For 100 % Gurantee Of My Profits\n\nAlways Play Through Fund Management only 5 - Level</b>";
-            const photo = 'https://i.ibb.co/gRZv08F/small.jpg';
+            const photo = 'https://i.ibb.co/v3zW2QS/small.jpg';
             bot.sendPhoto(chatId, photo, {
                 caption: predMes,
                 parse_mode: "HTML"
