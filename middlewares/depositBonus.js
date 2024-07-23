@@ -67,8 +67,8 @@ export async function depositBonus(msg){
         }
 
         const storedLink = checkLink.link;
-        const giftText = "<b>✅ Sikkim Highest Double Deposit Bonus Offer !! 🔥\n\n🔸Deposit ₹100 & Get Extra ₹68\n\n🔸Deposit ₹300 & Get Extra ₹138\n\n🔸Deposit ₹1200 & Get Extra ₹328\n\n🔸Deposit ₹5000 & Get Extra ₹1088\n\n👉Minimum Withdrawal ₹110\n\n🔗 Register Here:: "+storedLink+"\n\n❤️ Payment Fully Verified !! 🫦🔥</b>";
-        const giftImage = "https://i.ibb.co/JKNvwNq/deposit.jpg";
+        const giftText = "<b>First Deposit Bonus On In999 Register Make Deposit Of Minimum ₹200 And Get ₹28 Instant 🔥🔥\n\n🔗 Register Here:: "+storedLink+"\n\nAlso Per Refer ₹28 If Cannot Deposit Start Inviting To Earn Free 😏❤️</b>";
+        const giftImage = "https://i.ibb.co/KhJTcHJ/deposit.jpg";
         await bot.sendPhoto(chatId, giftImage, {
             caption: giftText,
             parse_mode: "HTML"
